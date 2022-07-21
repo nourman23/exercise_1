@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(107, 105, 105);
+    box-sizing: border-box;
+}
+
+header{
+    height: 70px;
+   width: 100%;
+  background-color: white;
+}
+
+#logo{
+width: 100px;
+left: 10px;
+margin-top: -15px;
+position: absolute;
+}
+.headForm{
+    margin-top: 10px;
+    right: 10px; 
+    position: absolute;
+}
+.headForm input{
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Header list*/
+header ul.headerList{
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    position: absolute;
+   left: 40%;
+   top: 10px;
+}
+
+
+ul.headerList li {   
+    display: inline-block;
+    padding: 20px;
+}
+
+ul.headerList li a{
+    text-decoration: none;
+    font-weight: bold;
+
+}
+/* Header list*/
+
+
+#HeadImag{
+    background-image: url("https://charlotteagenda-charlotteagenda.netdna-ssl.com/wp-content/uploads/2015/10/used-book-store-header1.jpg");
+    background-size: cover;
+}
+
+.backColor{
+    position: absolute;
+width: 100%;
+top: 70px;
+height:980px;
+background-color: #0808089d;
+}
+.TitSec{
+position: absolute;
+left: 30%;
+top: 50%;
+letter-spacing: 2px;
+}
+#title , #titleDes{
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+}
+#title{
+    
+   margin-top: 40px;
+   font-weight: bolder;
+}
+
+#titleDes{
+    color: darkgray;
+}
+#book{
+    color: white;
+}
+
+.orderedList{
+text-align: center;
+padding: 40px;
+margin: 50px;
+height: 250px;
+}
+
+.orderedList li{
+    display: inline;
+    height:300px ;
+}
+.orderedList li img{
+    height: 250px;
+}
+.orderedList li span{
+
+}
+.TheForm{
+    width: 450px;
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 3px 5px 8px #888888;
+}
+.TheForm label, .TheForm input{
+    padding: 15px;
+    margin: 15px;
+}
+
+#table{
+    text-align: center;
+    margin: 20px auto;
+  
+}
+#table tr ,#table td ,#table th{
+    border: 1px solid grey;
+}
+#table caption{
+    font-size: 20px;
+    font-weight: bold;
+}
+#table th, #table tr, #table td , #table caption{
+    padding: 6px;
+}
+#footer p{
+    text-align: center;
+    padding: 20px;
+}
+
+
